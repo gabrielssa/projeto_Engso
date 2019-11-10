@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# From unixJswScriptTemplateSample
+
+APP_NAME="@app.name@"
+APP_LONG_NAME="@app.long.name@"
+@env.setup.unix@
+@run.as.user.envvar@
